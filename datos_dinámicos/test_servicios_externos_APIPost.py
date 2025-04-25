@@ -31,4 +31,4 @@ def test_create_user():
     assert request_sent.headers["Content-Type"] == "application/json"
     assert request_sent.body == b'{"name": "Alice", "email": "alice@example.com"}'
 
-    #Ejecución: pytest .\test_servicios_externos_APIPost.py -v
+    #Ejecución: py -m pytest .\test_servicios_externos_APIPost.py -v
